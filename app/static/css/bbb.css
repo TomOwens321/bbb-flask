@@ -14,3 +14,9 @@ body {
     background-color: #d0d0d0;
     padding: 5%;   
 }
+
+.footer {
+    border-radius: 20px;
+    background-color: #d0dfb0;
+    padding: 2%;
+}
