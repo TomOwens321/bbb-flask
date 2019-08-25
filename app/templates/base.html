@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bbb.css') }}">
     </head>
     <body>
-        <div class="nav">Butterflies Bees and Birds <a href="/index">Home</a></div>
+        {% include "header.html" %}
         <div class="content">
           <hr>
           {% block content %}{% endblock %}
