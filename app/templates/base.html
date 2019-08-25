@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Sun Chaser Farms BBB</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bbb.css') }}">
+    </head>
+    <body>
+        {% include "header.html" %}
+        <div class="content">
+          <hr>
+          {% block content %}{% endblock %}
+        </div>
+        {% include "footer.html" %}
+    </body>
+</html>
