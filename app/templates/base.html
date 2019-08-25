@@ -1,10 +1,13 @@
 <html>
     <head>
         <title>Sun Chaser Farms BBB</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bbb.css') }}">
     </head>
     <body>
         <div class="nav">Butterflies Bees and Birds <a href="/index">Home</a></div>
-        <hr>
-        {% block content %}{% endblock %}
+        <div class="content">
+          <hr>
+          {% block content %}{% endblock %}
+        </div>
     </body>
 </html>

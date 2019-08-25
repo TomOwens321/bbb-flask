@@ -1,0 +1,16 @@
+body {
+    width: 75%;
+    margin: auto;
+}
+
+.nav {
+    border-radius: 25px;
+    background-color: #d0d0d0;
+    padding: 5%;
+}
+
+.hello {
+    border-radius: 25px;
+    background-color: #d0d0d0;
+    padding: 5%;   
+}
