@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>Plant</th>
+        <th>Bug</th>
+    </tr>
+{% for item in data %}
+    <tr>
+        <td>{{ item.plant }}</td>
+        <td>{{ item.bug }}</td>
+    </tr>
+{% endfor %}
+</table>
