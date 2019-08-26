@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+  BBB app entrypoint
+"""
 
 from app import app
 

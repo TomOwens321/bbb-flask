@@ -1,2 +1,2 @@
-FLASK_APP=bbb.py
+FLASK_APP=bbb
 FLASK_ENV=development
