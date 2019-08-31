@@ -39,4 +39,14 @@ def init_db_command():
 
 def init_app(app):
     app.teardown_appcontext(close_db)
+<<<<<<< HEAD
     app.cli.add_command(init_db_command)
+=======
+    app.cli.add_command(init_db_command)
+
+def query_db(query, args=(), one=False):
+    cur = get_db().execute(query, args)
+    rv = cur.fetchall()
+    cur.close()
+    return (rv[0] if rv else None) if one else rv
+>>>>>>> dbstuff
