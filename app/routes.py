@@ -12,3 +12,7 @@ def xref():
     query = 'SELECT * FROM creature_bugs;'
     data = db.query_db(query)
     return render_template('xref.html', data=data)
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template("404.html"), 404
